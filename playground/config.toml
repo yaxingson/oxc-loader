@@ -1,0 +1,18 @@
+# author info
+[author]
+name = "John Doe"
+email = "john.doe@example.com"
+active = true
+
+# database configuration
+[database]
+server = "192.168.1.1"
+ports = [ 8001, 8002, 8003 ]
+connection_max = 5000
+enabled = true
+
+# server configuration
+[servers]
+  # indentation can be used to represent hierarchical relationships
+  [servers.alpha]
+  ip = "10.0.0.1"
