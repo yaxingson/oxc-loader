@@ -1,6 +1,7 @@
 {
-  "name": "toml-loader",
-  "version": "1.0.0",
+  "name": "oxc-loader",
+  "private": true,
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -11,7 +12,8 @@
   "author": "yaxingson <3228891558@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "unbuild": "^3.5.0"
   },
   "dependencies": {
     "schema-utils": "^4.3.0"

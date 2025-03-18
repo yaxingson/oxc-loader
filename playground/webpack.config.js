@@ -9,16 +9,7 @@ export default ()=>{
     module:{
       rules:[
         {
-          test:/\.toml$/,
-          use:{
-            loader:'../dist/index.js',
-            options:{
-              removeComment:false,
-              typeConvert:true,
-              trimSpace:true,
-
-            }
-          }
+         
         }
       ]
     },
