@@ -1,3 +1,4 @@
-import config from './config.toml'
+"use strict"
 
-console.log(config)
+console.log('hello,world')
+

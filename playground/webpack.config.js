@@ -9,7 +9,15 @@ export default ()=>{
     module:{
       rules:[
         {
-         
+          test:/\.(js|ts)$/,
+          use:[
+            {
+              loader:"@oxc-loader/linter",
+              options:{
+
+              }
+            }
+          ]
         }
       ]
     },
